@@ -41,7 +41,7 @@ jpytilde = jpy-tauJPGDP;
 cnytilde = cny-tauCNGDP;
 
 % plot detrended GDP
-dates = 1994:1/4:2021.1/4; 
+dates = 1994:1/4:2021.1/1; 
 figure
 title('Detrended log(real GDP) 1994Q1-2021Q1'); hold on
 plot(q, cnytilde,'b', q, jpytilde,'r')
